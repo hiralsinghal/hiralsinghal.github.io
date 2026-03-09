@@ -10,19 +10,16 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    height: 40px;
+    height: 50px;
 }
 
 nav > a {
-    padding: 15px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 nav > a:hover {
-    background-color: black;
-    color: white;
-}
-
-nav > a.active {
     background-color: black;
     color: white;
 }
@@ -36,7 +33,9 @@ nav ul {
 
 nav ul li a {
     display: block;
-    padding: 15px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 nav ul li a:hover {
@@ -44,19 +43,27 @@ nav ul li a:hover {
     color: white;
 }
 
-nav ul li a.active {
-    background-color: black;
-    color: white;
-}
-
 header {
+    display: flex;
+    flex-direction: column;
     padding: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
 }
 
 main {
     padding: 15px;
+    height: 50vh;
+    margin: 5px;
 }
 
 footer {
-    padding: 15px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
