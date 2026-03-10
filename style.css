@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #092158;
     color: white;
     margin: 0;
     padding: 0;
@@ -9,8 +9,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-    height: 50px;
+    background-color: #8995E3;
+    height: 55px;
 }
 
 nav > a {
@@ -20,7 +20,7 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: black;
+    background-color: #092158;
     color: white;
 }
 
@@ -39,7 +39,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: black;
+    background-color: #092158;
     color: white;
 }
 
@@ -53,15 +53,37 @@ header {
     height: 90vh;
 }
 
+header h1 {
+    font-size: 70px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+header p {
+    font-size: 35px;
+    margin-top: 5;
+}
+
 main {
-    padding: 15px;
+    background-color: #343C77;
+    padding: 20px;
     height: 90vh;
-    margin: 5px;
+}
+
+main h2 {
+    font-size: 45px;
+    margin-top: 0;
+    text-align: center;
+}
+
+main p {
+    font-size: 20px;
+    text-align: center;
 }
 
 footer {
-    padding: 10px;
-    background-color: white;
+    padding: 1px;
+    background-color: #8995E3;
     color: black;
     justify-content: center;
     align-items: center;
