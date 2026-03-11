@@ -1,3 +1,17 @@
+.eb-garamond-headings {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: normal;
+}
+
+.jost-para {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+}
+
 body {
     background-color: #092158;
     color: white;
@@ -11,6 +25,7 @@ nav {
     align-items: center;
     background-color: #8995E3;
     height: 55px;
+    font-size: 17px;
 }
 
 nav > a {
