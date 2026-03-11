@@ -76,13 +76,13 @@ header h1 {
 
 header p {
     font-size: 35px;
-    margin-top: 5;
+    margin-top: 0;
 }
 
 main {
     background-color: #343C77;
     padding: 20px;
-    height: 90vh;
+    height: 99vh;
 }
 
 main h2 {
@@ -93,7 +93,7 @@ main h2 {
 
 main p {
     font-size: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 footer {
