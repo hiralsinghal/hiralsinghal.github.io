@@ -12,12 +12,15 @@
   font-style: normal;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-color: #092158;
     color: white;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 nav {
