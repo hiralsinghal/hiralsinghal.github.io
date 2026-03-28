@@ -65,7 +65,7 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 90vh;
+    min-height: 90vh;
 }
 
 header h1 {
